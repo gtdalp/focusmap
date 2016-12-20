@@ -1,9 +1,0 @@
-@charset "utf-8";
-.focusmap-ul{height:100%;position:relative;}.focusmap-ul>li{position:absolute;top:0;left:0;z-index:1;height:100%;width:100%;background-size:cover;background-position:50% 50%;}.focusmap-point{position:absolute;bottom:20px;left:0;z-index:3;width:100%;text-align:center;}.focusmap-point>a{display:inline-block;width:15px;height:15px;margin-right:7px;border-radius:50%;background:#68625C;font-size:0;}.focusmap-point>a:last-child{margin-right:0;}.focusmap-point>a.active{background:#F07A16;}
-
-
-
-
-
-
-
