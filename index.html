@@ -8,31 +8,22 @@
 <script src="images/js/index.js"></script>
 </head>
 <body>
-<div class="focusmap" style="height:400px;">
-	<!-- <ul class="zfb_datu_ul">
-		<li class="datu_li1"></li>
-		<li class="datu_li2"></li>
-		<li class="datu_li3"></li>
-		<li class="datu_li4"></li>
-	</ul>
-	<div class="focusmap-point">
-		<span class="active"></span>
-		<span></span>
-		<span></span>
-		<span></span>
-	</div> -->
-</div>
+<div class="focusmap" style="height:400px;"></div>
 <script>
-new Focusmap('.focusmap', {
+var f = new Focusmap('.focusmap', {
 	// 每隔多少毫秒播放一次
-	time: 4000,
+	time: 3000,
+	// 动画过渡时间 默认1000毫秒
+	transitionTime: 1000,
 	// 数据
 	data: [
 		{src: 'images/pic/1.jpg', href: 'https://github.com/gtdalp'},
 		{src: 'images/pic/2.jpg', href: 'https://github.com/gtdalp'},
 		{src: 'images/pic/3.jpg', href: 'https://github.com/gtdalp'}
 	]
-})
+});
+// 销毁
+// f.destroy();
 </script>
 </body>
 </html>
